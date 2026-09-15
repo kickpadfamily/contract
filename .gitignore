@@ -1,0 +1,22 @@
+# Compiler files
+cache/
+out/
+
+# Commonly ignored directories
+.logs/
+.ignore/
+
+# Foundry broadcast logs
+broadcast/
+
+# Local fork deployment output
+deployments/localnet.json
+deployments/anvil-state.json
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+.env.*
+!.env.example
